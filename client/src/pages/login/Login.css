@@ -1,0 +1,54 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255, 0.5),
+    rgba(255,255,255, 0.5)), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fl5DVnFL.jpg&f=1&nofb=1&ipt=424dc9320c39727bb236ac6d2f1ddf3a2efa1c120eaa2d09d928d25f1c19240b&ipo=images);
+    background-size: cover;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 200;
+
+}
+
+.loginTitle{
+    font-size: 50px;
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label {
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}

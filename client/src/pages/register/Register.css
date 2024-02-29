@@ -1,0 +1,54 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255, 0.5),
+    rgba(255,255,255, 0.5)), url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthegadgetflow.com%2Fwp-content%2Fuploads%2F2021%2F01%2FBest-workspace-gadgets-to-upgrade-your-WFH-setup-2048x1152.jpg&f=1&nofb=1&ipt=0a69e7050203627a4c3b769f55e47f85504cd064732b13c606149ae5a6c4d1d7&ipo=images);
+    background-size:contain;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 200;
+
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
